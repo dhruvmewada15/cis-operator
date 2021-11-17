@@ -34,8 +34,8 @@ var (
 	metricsPort          string
 	alertSeverity        string
 	debug                bool
-	securityScanImage    = "rancher/security-scan"
-	securityScanImageTag = "v0.2.1"
+	securityScanImage    = "dhruvmewada15/security-scan"
+	securityScanImageTag = "dev"
 	sonobuoyImage        = "rancher/sonobuoy-sonobuoy"
 	sonobuoyImageTag     = "v0.16.3"
 	clusterName          string
