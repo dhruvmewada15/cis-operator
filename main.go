@@ -35,7 +35,7 @@ var (
 	alertSeverity        string
 	debug                bool
 	securityScanImage    = "dhruvmewada15/security-scan"
-	securityScanImageTag = "dev"
+	securityScanImageTag = "dev-2"
 	sonobuoyImage        = "rancher/sonobuoy-sonobuoy"
 	sonobuoyImageTag     = "v0.16.3"
 	clusterName          string
