@@ -24,16 +24,9 @@ data:
         operator: Exists
       - effect: NoExecute
         key: CriticalAddonsOnly
-        operator: Exists
-      affinity:
-      nodeAffinity:
-        requiredDuringSchedulingIgnoredDuringExecution:
-          nodeSelectorTerms:
-          - matchExpressions:
-            - key: CriticalAddonsOnly
-              operator: Exists
-              values:
-              - true              
+        operator: Equal
+        values:
+        - true      
       volumes:
       - hostPath:
           path: /
